@@ -15,7 +15,8 @@ You can easily check your python version by going to your terminal and type the 
 python --version
 ```
 
-I am currently using Python 3.12.3 and selenium 4.17.2 is compatiable with it.
+I am currently using Python 3.12.3 and selenium 4.17.2 is compatiable with it.\
+For the purpose of using this, make sure your Python version is compatible with selenium 4.17.2
 
 ### 2.) Getting Selenium
 Make sure to download selenium as the scraper uses selenium for collecting data.\
