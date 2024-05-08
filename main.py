@@ -12,7 +12,7 @@ from data_clean import *
 
 
 # Let's test out the code
-download_dir =  'D:/CS4540/Project' #'C:/TestingWithoutDDrive/'      
+download_dir =  "<Your prefered directory for storing data>"       
 save_path = os.path.normpath(os.path.join(download_dir, 'Data'))
 
 # Parameters
@@ -22,10 +22,10 @@ number_of_weeks = 1          # Input number of weeks of game data you want to co
 max_number_of_games = 500        # Test with max number of games
 
 steam_scraper = SteamScraper(save_path, number_of_weeks, max_number_of_games, week)
-#steam_scraper.collect_game_data()
-#steam_scraper.collect_weekly_top_seller()
-#steam_scraper.driver_quit()
-#steam_scraper.save_data_to_json()
+steam_scraper.collect_game_data()
+steam_scraper.collect_weekly_top_seller()
+steam_scraper.driver_quit()
+steam_scraper.save_data_to_json()
 clean_data(save_path)
 
 del steam_scraper
