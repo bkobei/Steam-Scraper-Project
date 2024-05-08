@@ -5,9 +5,9 @@ Created by Brandon Kobayashi
 Make sure to download selenium as the scraper uses selenium for collecting data.
 
 # How to run the steam scraper application
-First, open the main.py file and set a directory you want to store your data that will be collected.\
-Secondly, set the other parameters (as shown in the comments of the py file)\
-Finally, run the code via the terminal (**python main.py**) and it should collect data and clean the data.
+- First, open the main.py file and set a directory you want to store your data that will be collected.\
+- Secondly, set the other parameters (as shown in the comments of the py file)\
+- Finally, run the code via the terminal (**python main.py**) and it should collect data and clean the data.
 
 ```sh
 python main.py
