@@ -1,8 +1,15 @@
 # Steam Scraper Project
+
 Created by Brandon Kobayashi
 
 ## Before you run the steam scraper
-Make sure to download selenium as the scraper uses selenium for collecting data.
+
+Make sure to download selenium as the scraper uses selenium for collecting data.\
+To make sure you do not run into errors, download selenium 4.17.2
+
+```sh
+pip install selenium==4.17.2
+```
 
 # How to run the steam scraper application
 - First, open the main.py file and set a directory you want to store your data that will be collected.
