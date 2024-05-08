@@ -1,10 +1,30 @@
 # Steam Scraper Project
 
 Created by Brandon Kobayashi
+Partners: Jimmy Nguyen, Alvin Yu
 
 ## Before you run the steam scraper
 
+Before running the steam scraper, there are 2 things you must check:
+
+### 1.) Check your Python version
+
+You can easily check your python version by going to your terminal and type the following:
+
+```sh
+python --version
+```
+
+I am currently using Python 3.12.3 and selenium 4.17.2 is compatiable with it.
+
+### 2.) Getting Selenium
 Make sure to download selenium as the scraper uses selenium for collecting data.\
+If you have selenium, check what version you have with the command below. Otherwise, continue to the next command.
+
+```sh
+pip show selenium
+```
+
 To make sure you do not run into errors, download selenium 4.17.2
 
 ```sh
