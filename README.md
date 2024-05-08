@@ -16,6 +16,6 @@ python main.py
 (**Note**: The files should be put in the same directory)
 
 ## [NOTICE]
-This steam scraper has only been tested on windows.\
-The steam scraper still needs some improvements for the purpose of this project.
+- This steam scraper has only been tested on windows.\
+- The steam scraper still needs some improvements for the purpose of this project.
 
