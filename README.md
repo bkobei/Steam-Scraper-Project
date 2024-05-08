@@ -1,6 +1,6 @@
 # Steam Scraper Project
 
-Created by Brandon Kobayashi
+Created by Brandon Kobayashi\
 Partners: Jimmy Nguyen, Alvin Yu
 
 ## Before you run the steam scraper
