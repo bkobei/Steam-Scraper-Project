@@ -3,6 +3,9 @@
 Created by Brandon Kobayashi\
 Partners: Jimmy Nguyen, Alvin Yu
 
+# [NOTE]
+This project is for educational purposes only.
+
 ## Before you run the steam scraper
 
 Before running the steam scraper, there are 2 things you must check:
