@@ -1,0 +1,19 @@
+{
+    "position": 407,
+    "name": "call_of_duty_modern_warfare_ii",
+    "genre_list": [
+        "Action",
+        "FPS",
+        "Multiplayer",
+        "Singleplayer"
+    ],
+    "publisher": "Activision",
+    "developer": "Infinity Ward",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "position": 245,
+    "name": "battlefield_1",
+    "genre_list": [
+        "FPS",
+        "Multiplayer",
+        "World War I",
+        "Singleplayer"
+    ],
+    "publisher": "Electronic Arts",
+    "developer": "DICE",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

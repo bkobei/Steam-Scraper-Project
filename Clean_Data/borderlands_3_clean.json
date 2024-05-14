@@ -1,0 +1,19 @@
+{
+    "position": 214,
+    "name": "borderlands_3",
+    "genre_list": [
+        "RPG",
+        "Looter Shooter",
+        "Multiplayer",
+        "FPS"
+    ],
+    "publisher": "2K",
+    "developer": "Gearbox Software",
+    "weekly_positions": {
+        "2024-4-16": 82
+    },
+    "prices": {
+        "normal_price": "$59.99",
+        "discount_price": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "position": 20,
+    "name": "another_crabs_treasure",
+    "genre_list": [
+        "Souls-like",
+        "3D Platformer",
+        "Funny",
+        "Action RPG"
+    ],
+    "publisher": "Aggro Crab",
+    "developer": "Aggro Crab",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

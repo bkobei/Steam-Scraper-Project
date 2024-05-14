@@ -1,0 +1,19 @@
+{
+    "position": 257,
+    "name": "battlefield_v",
+    "genre_list": [
+        "FPS",
+        "Multiplayer",
+        "World War II",
+        "Singleplayer"
+    ],
+    "publisher": "Electronic Arts",
+    "developer": "DICE",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

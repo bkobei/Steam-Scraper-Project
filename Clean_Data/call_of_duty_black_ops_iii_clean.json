@@ -1,0 +1,19 @@
+{
+    "position": 49,
+    "name": "call_of_duty_black_ops_iii",
+    "genre_list": [
+        "Multiplayer",
+        "FPS",
+        "Zombies",
+        "Shooter"
+    ],
+    "publisher": "Activision",
+    "developer": "Treyarch",
+    "weekly_positions": {
+        "2024-4-16": 24
+    },
+    "prices": {
+        "normal_price": "$59.99",
+        "discount_price": ""
+    }
+}

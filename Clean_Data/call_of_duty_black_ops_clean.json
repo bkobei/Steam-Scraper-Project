@@ -1,0 +1,19 @@
+{
+    "position": 327,
+    "name": "call_of_duty_black_ops",
+    "genre_list": [
+        "Action",
+        "FPS",
+        "Zombies",
+        "Multiplayer"
+    ],
+    "publisher": "Activision",
+    "developer": "Treyarch",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

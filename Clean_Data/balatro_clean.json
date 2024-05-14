@@ -1,0 +1,19 @@
+{
+    "position": 36,
+    "name": "balatro",
+    "genre_list": [
+        "Roguelike Deckbuilder",
+        "Card Game",
+        "Roguelike",
+        "Deckbuilding"
+    ],
+    "publisher": "Playstack",
+    "developer": "LocalThunk",
+    "weekly_positions": {
+        "2024-4-16": 57
+    },
+    "prices": {
+        "normal_price": "$14.99",
+        "discount_price": "$13.49"
+    }
+}

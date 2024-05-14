@@ -1,0 +1,19 @@
+{
+    "position": 472,
+    "name": "bigfoot",
+    "genre_list": [
+        "Horror",
+        "Multiplayer",
+        "Co-op",
+        "Survival Horror"
+    ],
+    "publisher": "CyberLight Game Studio",
+    "developer": "CyberLight Game Studio",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

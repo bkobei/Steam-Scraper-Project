@@ -1,0 +1,19 @@
+{
+    "position": 102,
+    "name": "chrono_ark",
+    "genre_list": [
+        "Roguelike Deckbuilder",
+        "RPG",
+        "Anime",
+        "Strategy"
+    ],
+    "publisher": "Al Fine",
+    "developer": "Al Fine",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}
