@@ -1,0 +1,20 @@
+{
+    "position": 90,
+    "name": "ratchet__clank_rift_apart",
+    "genre_list": [
+        "Adventure",
+        "3D Platformer",
+        "Singleplayer",
+        "Action-Adventure"
+    ],
+    "publisher": "PlayStation PC LLC",
+    "developer": "Insomniac Games",
+    "prices": [
+        "$59.99",
+        "$35.99"
+    ],
+    "discount_percent": "40%",
+    "weekly_positions": {},
+    "normal_price": "$59.99",
+    "discount_price": "$35.99"
+}

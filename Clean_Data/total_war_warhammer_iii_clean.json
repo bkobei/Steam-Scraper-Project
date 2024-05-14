@@ -1,0 +1,20 @@
+{
+    "position": 34,
+    "name": "total_war_warhammer_iii",
+    "genre_list": [
+        "Strategy",
+        "Turn-Based Strategy",
+        "Grand Strategy",
+        "RTS"
+    ],
+    "publisher": "SEGA",
+    "developer": "CREATIVE ASSEMBLY",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

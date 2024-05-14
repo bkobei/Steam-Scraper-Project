@@ -1,0 +1,22 @@
+{
+    "position": 32,
+    "name": "rimworld",
+    "genre_list": [
+        "Colony Sim",
+        "Base Building",
+        "Survival",
+        "Strategy"
+    ],
+    "publisher": "Ludeon Studios",
+    "developer": "Ludeon Studios",
+    "prices": [
+        "$34.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 15
+    },
+    "normal_price": "$34.99",
+    "discount_price": "$0"
+}

@@ -1,0 +1,22 @@
+{
+    "position": 51,
+    "name": "sker_ritual",
+    "genre_list": [
+        "Atmospheric",
+        "Adventure",
+        "Shooter",
+        "PvE"
+    ],
+    "publisher": "",
+    "developer": "Wales Interactive",
+    "prices": [
+        "$24.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 7
+    },
+    "normal_price": "$24.99",
+    "discount_price": "$0"
+}

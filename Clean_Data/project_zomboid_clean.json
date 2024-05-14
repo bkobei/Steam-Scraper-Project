@@ -1,0 +1,20 @@
+{
+    "position": 94,
+    "name": "project_zomboid",
+    "genre_list": [
+        "Survival",
+        "Zombies",
+        "Open World",
+        "Open World Survival Craft"
+    ],
+    "publisher": "The Indie Stone",
+    "developer": "The Indie Stone",
+    "prices": [
+        "$19.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$19.99",
+    "discount_price": "$0"
+}

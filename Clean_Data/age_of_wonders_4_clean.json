@@ -1,0 +1,20 @@
+{
+    "position": 75,
+    "name": "age_of_wonders_4",
+    "genre_list": [
+        "Strategy",
+        "4X",
+        "Character Customization",
+        "Choices Matter"
+    ],
+    "publisher": "",
+    "developer": "Triumph Studios",
+    "prices": [
+        "$49.99",
+        "$34.99"
+    ],
+    "discount_percent": "30%",
+    "weekly_positions": {},
+    "normal_price": "$49.99",
+    "discount_price": "$34.99"
+}

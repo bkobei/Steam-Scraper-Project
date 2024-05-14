@@ -1,0 +1,22 @@
+{
+    "position": 65,
+    "name": "pubg_battlegrounds",
+    "genre_list": [
+        "Survival",
+        "Shooter",
+        "Battle Royale",
+        "Multiplayer"
+    ],
+    "publisher": "KRAFTON, Inc.",
+    "developer": "KRAFTON, Inc.",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 61
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

@@ -1,0 +1,22 @@
+{
+    "position": 61,
+    "name": "dragons_dogma_2",
+    "genre_list": [
+        "RPG",
+        "Open World",
+        "Action RPG",
+        "Action"
+    ],
+    "publisher": "CAPCOM Co., Ltd.",
+    "developer": "CAPCOM Co., Ltd.",
+    "prices": [
+        "$69.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 38
+    },
+    "normal_price": "$69.99",
+    "discount_price": "$0"
+}

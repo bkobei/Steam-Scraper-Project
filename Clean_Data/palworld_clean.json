@@ -1,0 +1,22 @@
+{
+    "position": 62,
+    "name": "palworld",
+    "genre_list": [
+        "Multiplayer",
+        "Open World",
+        "Creature Collector",
+        "Survival"
+    ],
+    "publisher": "Pocketpair",
+    "developer": "Pocketpair",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 86
+    },
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}

@@ -1,0 +1,20 @@
+{
+    "position": 95,
+    "name": "planet_zoo",
+    "genre_list": [
+        "Management",
+        "Simulation",
+        "Building",
+        "Sandbox"
+    ],
+    "publisher": "Frontier Developments",
+    "developer": "Frontier Developments",
+    "prices": [
+        "$44.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$44.99",
+    "discount_price": "$0"
+}

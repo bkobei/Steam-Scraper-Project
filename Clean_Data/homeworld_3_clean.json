@@ -1,0 +1,20 @@
+{
+    "position": 18,
+    "name": "homeworld_3",
+    "genre_list": [
+        "Space",
+        "RTS",
+        "Strategy",
+        "Story Rich"
+    ],
+    "publisher": "",
+    "developer": "Blackbird Interactive",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

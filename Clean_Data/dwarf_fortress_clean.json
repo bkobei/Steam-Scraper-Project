@@ -1,0 +1,20 @@
+{
+    "position": 98,
+    "name": "dwarf_fortress",
+    "genre_list": [
+        "Dwarf",
+        "Colony Sim",
+        "Building",
+        "Indie"
+    ],
+    "publisher": "Kitfox Games",
+    "developer": "Bay 12 Games",
+    "prices": [
+        "$29.99",
+        "$23.99"
+    ],
+    "discount_percent": "20%",
+    "weekly_positions": {},
+    "normal_price": "$29.99",
+    "discount_price": "$23.99"
+}

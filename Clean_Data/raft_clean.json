@@ -1,0 +1,20 @@
+{
+    "position": 99,
+    "name": "raft",
+    "genre_list": [
+        "Survival",
+        "Multiplayer",
+        "Open World Survival Craft",
+        "Co-op"
+    ],
+    "publisher": "Axolot Games",
+    "developer": "Redbeet Interactive",
+    "prices": [
+        "$19.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$19.99",
+    "discount_price": "$0"
+}

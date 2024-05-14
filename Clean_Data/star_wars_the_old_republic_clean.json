@@ -1,0 +1,22 @@
+{
+    "position": 80,
+    "name": "star_wars_the_old_republic",
+    "genre_list": [
+        "Free to Play",
+        "MMORPG",
+        "Multiplayer",
+        "Character Customization"
+    ],
+    "publisher": "Electronic Arts",
+    "developer": "Broadsword",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 93
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

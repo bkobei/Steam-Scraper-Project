@@ -1,0 +1,20 @@
+{
+    "position": 12,
+    "name": "manor_lords",
+    "genre_list": [
+        "Strategy",
+        "City Builder",
+        "Simulation",
+        "Base Building"
+    ],
+    "publisher": "Hooded Horse",
+    "developer": "Slavic Magic",
+    "prices": [
+        "$39.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$39.99",
+    "discount_price": "$0"
+}

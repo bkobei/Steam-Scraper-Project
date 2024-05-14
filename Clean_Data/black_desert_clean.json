@@ -1,0 +1,22 @@
+{
+    "position": 53,
+    "name": "black_desert",
+    "genre_list": [
+        "MMORPG",
+        "Massively Multiplayer",
+        "Open World",
+        "RPG"
+    ],
+    "publisher": "Pearl Abyss",
+    "developer": "Pearl Abyss",
+    "prices": [
+        "$9.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 46
+    },
+    "normal_price": "$9.99",
+    "discount_price": "$0"
+}

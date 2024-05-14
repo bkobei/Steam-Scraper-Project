@@ -1,0 +1,20 @@
+{
+    "position": 86,
+    "name": "vampire_survivors",
+    "genre_list": [
+        "Action Roguelike",
+        "Bullet Hell",
+        "Pixel Graphics",
+        "Roguelite"
+    ],
+    "publisher": "",
+    "developer": "poncle",
+    "prices": [
+        "$4.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$4.99",
+    "discount_price": "$0"
+}

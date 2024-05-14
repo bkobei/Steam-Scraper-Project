@@ -1,0 +1,22 @@
+{
+    "position": 58,
+    "name": "ark_survival_ascended",
+    "genre_list": [
+        "Early Access",
+        "Survival",
+        "Open World",
+        "Dinosaurs"
+    ],
+    "publisher": "Studio Wildcard",
+    "developer": "Studio Wildcard",
+    "prices": [
+        "$44.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 54
+    },
+    "normal_price": "$44.99",
+    "discount_price": "$0"
+}

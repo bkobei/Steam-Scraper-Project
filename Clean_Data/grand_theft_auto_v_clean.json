@@ -1,0 +1,22 @@
+{
+    "position": 22,
+    "name": "grand_theft_auto_v",
+    "genre_list": [
+        "Open World",
+        "Action",
+        "Multiplayer",
+        "Crime"
+    ],
+    "publisher": "Rockstar Games",
+    "developer": "Rockstar North",
+    "prices": [
+        "$39.98",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 39
+    },
+    "normal_price": "$39.98",
+    "discount_price": "$0"
+}

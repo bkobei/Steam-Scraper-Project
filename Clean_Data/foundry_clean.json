@@ -1,0 +1,20 @@
+{
+    "position": 69,
+    "name": "foundry",
+    "genre_list": [
+        "Early Access",
+        "Automation",
+        "Base Building",
+        "Sandbox"
+    ],
+    "publisher": "",
+    "developer": "Channel 3 Entertainment",
+    "prices": [
+        "$29.99",
+        "$26.99"
+    ],
+    "discount_percent": "10%",
+    "weekly_positions": {},
+    "normal_price": "$29.99",
+    "discount_price": "$26.99"
+}

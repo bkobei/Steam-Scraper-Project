@@ -1,0 +1,22 @@
+{
+    "position": 54,
+    "name": "lethal_company",
+    "genre_list": [
+        "Online Co-Op",
+        "Horror",
+        "First-Person",
+        "Co-op"
+    ],
+    "publisher": "Zeekerss",
+    "developer": "Zeekerss",
+    "prices": [
+        "$9.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 65
+    },
+    "normal_price": "$9.99",
+    "discount_price": "$0"
+}

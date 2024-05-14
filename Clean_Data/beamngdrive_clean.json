@@ -1,0 +1,20 @@
+{
+    "position": 72,
+    "name": "beamngdrive",
+    "genre_list": [
+        "Simulation",
+        "Driving",
+        "Realistic",
+        "Physics"
+    ],
+    "publisher": "BeamNG",
+    "developer": "BeamNG",
+    "prices": [
+        "$24.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$24.99",
+    "discount_price": "$0"
+}

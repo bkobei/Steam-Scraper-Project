@@ -1,0 +1,22 @@
+{
+    "position": 8,
+    "name": "elden_ring",
+    "genre_list": [
+        "Souls-like",
+        "Dark Fantasy",
+        "Open World",
+        "RPG"
+    ],
+    "publisher": "FromSoftware Inc.",
+    "developer": "FromSoftware Inc.",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 27
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

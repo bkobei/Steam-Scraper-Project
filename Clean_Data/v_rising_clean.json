@@ -1,0 +1,20 @@
+{
+    "position": 5,
+    "name": "v_rising",
+    "genre_list": [
+        "Survival",
+        "Open World",
+        "Base Building",
+        "Vampire"
+    ],
+    "publisher": "",
+    "developer": "Stunlock Studios",
+    "prices": [
+        "$34.99",
+        "$31.49"
+    ],
+    "discount_percent": "10%",
+    "weekly_positions": {},
+    "normal_price": "$34.99",
+    "discount_price": "$31.49"
+}

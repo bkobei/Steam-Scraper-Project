@@ -1,0 +1,22 @@
+{
+    "position": 73,
+    "name": "the_planet_crafter",
+    "genre_list": [
+        "Online Co-Op",
+        "Base Building",
+        "Open World Survival Craft",
+        "Co-op"
+    ],
+    "publisher": "Miju Games",
+    "developer": "Miju Games",
+    "prices": [
+        "$23.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 42
+    },
+    "normal_price": "$23.99",
+    "discount_price": "$0"
+}

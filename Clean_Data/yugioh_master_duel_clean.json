@@ -1,0 +1,22 @@
+{
+    "position": 47,
+    "name": "yugioh_master_duel",
+    "genre_list": [
+        "Card Game",
+        "Free to Play",
+        "Strategy",
+        "Trading Card Game"
+    ],
+    "publisher": "KONAMI",
+    "developer": "KONAMI",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 49
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

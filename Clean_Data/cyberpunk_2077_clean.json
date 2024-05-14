@@ -1,0 +1,22 @@
+{
+    "position": 37,
+    "name": "cyberpunk_2077",
+    "genre_list": [
+        "Cyberpunk",
+        "Open World",
+        "Nudity",
+        "RPG"
+    ],
+    "publisher": "CD PROJEKT RED",
+    "developer": "CD PROJEKT RED",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 62
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

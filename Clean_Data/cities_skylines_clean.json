@@ -1,0 +1,20 @@
+{
+    "position": 82,
+    "name": "cities_skylines",
+    "genre_list": [
+        "City Builder",
+        "Simulation",
+        "Building",
+        "Management"
+    ],
+    "publisher": "",
+    "developer": "Colossal Order Ltd.",
+    "prices": [
+        "$29.99",
+        "$8.99"
+    ],
+    "discount_percent": "70%",
+    "weekly_positions": {},
+    "normal_price": "$29.99",
+    "discount_price": "$8.99"
+}
