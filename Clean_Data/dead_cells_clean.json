@@ -1,0 +1,19 @@
+{
+    "position": 332,
+    "name": "dead_cells",
+    "genre_list": [
+        "Adventure",
+        "Metroidvania",
+        "Action Roguelike",
+        "Pixel Graphics"
+    ],
+    "publisher": "Motion Twin",
+    "developer": "Motion Twin",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

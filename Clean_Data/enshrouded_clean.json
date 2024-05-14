@@ -1,0 +1,19 @@
+{
+    "position": 50,
+    "name": "enshrouded",
+    "genre_list": [
+        "Open World",
+        "Survival",
+        "Base Building",
+        "Multiplayer"
+    ],
+    "publisher": "",
+    "developer": "Keen Games GmbH",
+    "weekly_positions": {
+        "2024-4-16": 80
+    },
+    "prices": {
+        "normal_price": "$29.99",
+        "discount_price": ""
+    }
+}

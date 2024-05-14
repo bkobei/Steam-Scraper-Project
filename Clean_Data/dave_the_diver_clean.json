@@ -1,0 +1,19 @@
+{
+    "position": 189,
+    "name": "dave_the_diver",
+    "genre_list": [
+        "Pixel Graphics",
+        "Casual",
+        "Adventure",
+        "Management"
+    ],
+    "publisher": "MINTROCKET",
+    "developer": "MINTROCKET",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "position": 21,
+    "name": "dead_by_daylight",
+    "genre_list": [
+        "Horror",
+        "Survival Horror",
+        "Multiplayer",
+        "Online Co-Op"
+    ],
+    "publisher": "Behaviour Interactive Inc.",
+    "developer": "Behaviour Interactive Inc.",
+    "weekly_positions": {
+        "2024-4-16": 33
+    },
+    "prices": {
+        "normal_price": "$19.99",
+        "discount_price": ""
+    }
+}

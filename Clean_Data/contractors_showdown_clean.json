@@ -1,0 +1,19 @@
+{
+    "position": 363,
+    "name": "contractors_showdown",
+    "genre_list": [
+        "VR",
+        "Shooter",
+        "Action",
+        "Battle Royale"
+    ],
+    "publisher": "Caveman Studio",
+    "developer": "Caveman Studio",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

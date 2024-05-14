@@ -1,0 +1,19 @@
+{
+    "position": 25,
+    "name": "dota_2",
+    "genre_list": [
+        "Free to Play",
+        "MOBA",
+        "Multiplayer",
+        "Strategy"
+    ],
+    "publisher": "Valve",
+    "developer": "Valve",
+    "weekly_positions": {
+        "2024-4-16": 8
+    },
+    "prices": {
+        "normal_price": "$0",
+        "discount_price": ""
+    }
+}

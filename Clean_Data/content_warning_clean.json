@@ -1,0 +1,19 @@
+{
+    "position": 19,
+    "name": "content_warning",
+    "genre_list": [
+        "Online Co-Op",
+        "Horror",
+        "Multiplayer",
+        "First-Person"
+    ],
+    "publisher": "Landfall Publishing",
+    "developer": "Skog",
+    "weekly_positions": {
+        "2024-4-16": 12
+    },
+    "prices": {
+        "normal_price": "$7.99",
+        "discount_price": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "position": 136,
+    "name": "dead_island_2",
+    "genre_list": [
+        "Zombies",
+        "Co-op",
+        "Gore",
+        "Action-Adventure"
+    ],
+    "publisher": "Deep Silver",
+    "developer": "Dambuster Studios",
+    "weekly_positions": {
+        "2024-4-16": 41
+    },
+    "prices": {
+        "normal_price": "$59.99",
+        "discount_price": ""
+    }
+}

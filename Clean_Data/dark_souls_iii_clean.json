@@ -1,0 +1,19 @@
+{
+    "position": 225,
+    "name": "dark_souls_iii",
+    "genre_list": [
+        "Souls-like",
+        "Dark Fantasy",
+        "Difficult",
+        "RPG"
+    ],
+    "publisher": "FromSoftware, Inc.",
+    "developer": "FromSoftware, Inc.",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

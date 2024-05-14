@@ -1,0 +1,19 @@
+{
+    "position": 108,
+    "name": "dead_space",
+    "genre_list": [
+        "Horror",
+        "Third-Person Shooter",
+        "Space",
+        "Sci-fi"
+    ],
+    "publisher": "Electronic Arts",
+    "developer": "Motive",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

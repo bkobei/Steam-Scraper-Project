@@ -1,0 +1,19 @@
+{
+    "position": 33,
+    "name": "ea_sports_fc_24",
+    "genre_list": [
+        "Football (Soccer)",
+        "Sports",
+        "Controller",
+        "Multiplayer"
+    ],
+    "publisher": "Electronic Arts",
+    "developer": "EA Canada & EA Romania",
+    "weekly_positions": {
+        "2024-4-16": 58
+    },
+    "prices": {
+        "normal_price": "$69.99",
+        "discount_price": "$13.99"
+    }
+}

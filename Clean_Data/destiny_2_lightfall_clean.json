@@ -1,0 +1,19 @@
+{
+    "position": 296,
+    "name": "destiny_2_lightfall",
+    "genre_list": [
+        "Free to Play",
+        "Open World",
+        "FPS",
+        "Looter Shooter"
+    ],
+    "publisher": "Bungie",
+    "developer": "Bungie",
+    "weekly_positions": {
+        "2024-4-16": 67
+    },
+    "prices": {
+        "normal_price": "$29.99",
+        "discount_price": ""
+    }
+}

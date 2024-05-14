@@ -1,0 +1,19 @@
+{
+    "position": 159,
+    "name": "factorio",
+    "genre_list": [
+        "Automation",
+        "Base Building",
+        "Resource Management",
+        "Sandbox"
+    ],
+    "publisher": "Wube Software LTD.",
+    "developer": "Wube Software LTD.",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}
