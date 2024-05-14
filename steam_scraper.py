@@ -11,6 +11,7 @@ import os
 import time
 import datetime
 import json
+import math
 
 #from dotenv import load_dotenv
 #from decouple import config # type: ignore
@@ -131,7 +132,6 @@ class SteamScraper():
                 discount = False
                 # lists
                 genre_list = []
-                game_prices = []
 
                 # string variables
                 game_price = ''
@@ -139,12 +139,6 @@ class SteamScraper():
                 game_name = ''
 
                 # Important xpaths
-                game_price_xpath = ("//*[@id=\"page_root\"]/div[3]/div/div/div/div[4]" + 
-                                    "/table/tbody/tr[%s]/td[4]/div/div/div")
-                game_price_discount3_xpath = ("//*[@id=\"page_root\"]/div[3]/div/div/div/div[4]" +
-                                            "/table/tbody/tr[%s]/td[4]/div/div/div[3]/div")
-                game_price_discount2_xpath = ("//*[@id=\"page_root\"]/div[3]/div/div/div/div[4]" + 
-                                            "/table/tbody/tr[%s]/td[4]/div/div/div[2]/div")
                 game_name_xpath = ("//*[@id=\"page_root\"]/div[3]/div/div/div/div[4]" +
                                 "/table/tbody/tr[%s]/td[3]/a/div")
 
@@ -158,57 +152,7 @@ class SteamScraper():
                     continue
 
                 print("===========================================================")
-                try: 
-                    game_price = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(
-                        (By.XPATH, (game_price_discount3_xpath + "[1]")%(game_item_count))
-                    )).text
-
-                    game_price_discount = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(
-                        (By.XPATH, (game_price_discount3_xpath + "[2]")%(game_item_count))
-                    )).text
-                    discount = True
-                    print("Found discounted price in 3 divs for " + game_name)
-                except:
-                    print("Let's look for discount in 2 divs!")
-                    # Check for discounted price again
-                    try:
-                        game_price = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(
-                            (By.XPATH, (game_price_discount2_xpath + "[1]")%(game_item_count))
-                        )).text
-
-                        game_price_discount = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(
-                            (By.XPATH, (game_price_discount2_xpath + "[2]")%(game_item_count))
-                        )).text
-                        discount = True
-                        print("Found discounted price in 2 divs for " + game_name)
-                    except:
-                        print("There are no discounts for this product!")
-                        discount = False
                 
-                if not discount:
-                    # Look for original price in 2 div (when game is new)
-                    try:
-                        game_price = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(
-                            (By.XPATH, (game_price_xpath + "[2]")%(game_item_count))
-                        )).text
-                        print("Price found in 2nd div for " + game_name)
-                    except:
-                        print("Price does not exist in a 2nd div!")
-                        try:
-                            game_price = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(
-                                (By.XPATH, game_price_xpath%(game_item_count))
-                            )).text
-                            print("Price found in 1st div for " + game_name)
-                        except:
-                            print("No price found! " + 
-                                game_name + " is Free 2 Play (Assuming no Subscription).")
-                            is_empty = True
-                        
-                if is_empty:
-                    game_price = '$0'
-
-                game_prices.append(game_price)
-                game_prices.append(game_price_discount)
 
                 time.sleep(2)
                 # Attempt to click on a game
@@ -250,19 +194,11 @@ class SteamScraper():
                             
                             print("Out of while loop")
 
-                            print(game_name + "'s Sales Price: ")
-                            if discount:
-                                print("\tOriginal Price: " + game_price)
-                                print("\tDiscounted Price: " + game_price_discount)
-                            else:
-                                print("\tPrice: " + game_price)
-
                             # Check for DLCS or updates of games
                             
                             
                             game_storing_object = gs2(
                                 game_name, 
-                                game_prices,
                                 games_stored + 1
                                 )
 
@@ -318,20 +254,23 @@ class SteamScraper():
         games_stored = 0
         cannot_find_game_title = False
         
-        app_id_list = []
+        app_id_dict = {}
+        app_price_bool_list = []
 
         # //*[@id="search_resultsRows"]/a[596]
         # //*[@id="search_resultsRows"]/a[293]
         j = 1
         while j <= MAX_ITEM:
+            print("============================================")
+            print("Collecting App ID No.%s"%j)
+
             try:
                 app_id = WebDriverWait(self.driver,5).until(EC.element_to_be_clickable(
                     (By.XPATH, "//*[@id=\"search_resultsRows\"]/a[%s]"%(j))
                 )).get_attribute("data-ds-appid")
                 print(app_id)
-                if app_id not in app_id_list:
-                    print("Appending app id to list")
-                    app_id_list.append(app_id)
+                key = app_id
+                
             except:
                 print("Couldn't find it, scrolling down")
                 self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -341,15 +280,78 @@ class SteamScraper():
                     (By.XPATH, "//*[@id=\"search_resultsRows\"]/a[%s]"%(j))
                     )).get_attribute("data-ds-appid")
                     print(app_id)
-                    if app_id not in app_id_list:
-                        print("Appending app idd to list")
-                        app_id_list.append(app_id)
+                    key = app_id
                 except:
                     print("Couldn't get game name. ERROR")
 
+            prices = []
+            price_found = False
+            is_discount = False
+
+            
+
+            obj = ''
+
+
+            try:
+                app_discount_price = WebDriverWait(self.driver,3).until(EC.element_to_be_clickable(
+                    (By.XPATH, "//*[@id=\"search_resultsRows\"]/a[%s]/div[2]/div[4]/div/div/div[2]/div[2]"%j)   
+                )).text
+                app_original_price = WebDriverWait(self.driver,2).until(EC.element_to_be_clickable(
+                    (By.XPATH, "//*[@id=\"search_resultsRows\"]/a[%s]/div[2]/div[4]/div/div/div[2]/div[1]"%j)
+                )).text
+
+                prices.append(app_original_price)
+                prices.append(app_discount_price)
+                print("Appended Discounted and Original Prices")
+                print("Discount Price: %s"%app_discount_price)
+                print("Original Price: %s"%app_original_price)
+                price_found = True
+                is_discount = True
+                discount_percent = self.cal_discount_percent(
+                        self.price_to_float(prices[0]),
+                        self.price_to_float(prices[1])
+                    )
+                
+                discount_percent = str(discount_percent) + '%'
+                
+                print(discount_percent)
+
+                obj = {
+                    "discount_percent": discount_percent,
+                    "prices": prices,
+                    "is_discount": is_discount,
+                    "price_found": price_found
+                }
+            except:
+                print("Couldn't find discount. Checking if normal price.")
+
+                try:
+                    app_original_price = WebDriverWait(self.driver,2).until(EC.element_to_be_clickable(
+                        (By.XPATH, "//*[@id=\"search_resultsRows\"]/a[%s]/div[2]/div[4]/div/div/div/div"%j)
+                    )).text
+                    
+                    print("Original Price: %s"%app_original_price)
+                    prices.append(self.fix_price(app_original_price))
+                    price_found = True
+                except:
+                    print("Couldn't find normal price either.")
+                    print("Will get price from store page.")
+                    # This is for games where the price is not stored in search page
+                obj = {
+                    "prices": prices,
+                    "is_discount": is_discount,
+                    "price_found": price_found
+                }
+
+            app_id_dict[key] = obj
             j += 1
 
-        for id in app_id_list:
+            print("============================================")
+
+        print("%s items in app_id_dict"%(len(app_id_dict)))
+
+        for id, obj in app_id_dict.items():
             print("Game/App number %s"%(games_stored+1))
             game_name = ''
             genre_list = []
@@ -417,9 +419,7 @@ class SteamScraper():
 
                         # Close add_genre page
                         if is_add_genre_open:
-                            self.driver.find_element(By.CLASS_NAME, 'newmodal_close').click()
-                        
-                        print("Out of while loop")
+                            self.driver.find_element(By.CLASS_NAME, 'newmodal_close').click()                
 
                         # Check for DLCS or updates of games
 
@@ -449,11 +449,21 @@ class SteamScraper():
 
                         print("Publisher: " + publisher_name)
                         
-                        game_storing_object = gs(
-                            game_name, 
-                            genre_list, 
-                            developer_name,
-                            publisher_name)
+                        if (obj["is_discount"]):
+                            game_storing_object = gs(
+                                game_name, 
+                                genre_list, 
+                                developer_name,
+                                publisher_name,
+                                obj["prices"],
+                                obj["discount_percent"])
+                        else:
+                            game_storing_object = gs(
+                                game_name, 
+                                genre_list, 
+                                developer_name,
+                                publisher_name,
+                                obj["prices"])
 
                         game_list[original_game_title] = game_storing_object
 
@@ -492,7 +502,9 @@ class SteamScraper():
                 "name": gs.get_name(),
                 "genre_list": gs.get_genres(),
                 "publisher": gs.get_publisher(),
-                "developer": gs.get_developer()
+                "developer": gs.get_developer(),
+                "prices": gs.get_prices(),
+                "discount_percent": gs.get_sale_percent()
             }
             i += 1
             new_game_name = self.fix_name(game_name)
@@ -533,7 +545,6 @@ class SteamScraper():
                 game_obj = {
                     "position": gs.get_position(),
                     "name": new_name,
-                    "prices": gs.get_prices()
                 }
 
                 try:
@@ -567,6 +578,33 @@ class SteamScraper():
                 new_game_name += '_'
 
         return new_game_name
+    
+    def fix_price(self, price):
+        fixed_price = ''
+        if price == "Free":
+            return price
+        
+        for c in price:
+            if ((c >= '0' and c <= '9') or 
+                (c == '.') or 
+                (c == '$')):
+                fixed_price += c
+        
+        return fixed_price
+    
+    def cal_discount_percent(self, normal, discount):
+        remaining = normal - discount
+        return math.floor((remaining/normal)*100)
+    
+    def price_to_float(self, price):
+        float_price = ''
+        for c in price:
+            if (c >= '0' and c <= '9'):
+                float_price += c
+        
+        return float(float_price)
+        
+
     
     # check if url is age check
     def age_check(self):
@@ -608,6 +646,9 @@ class SteamScraper():
 
     def driver_quit(self):
         self.driver.quit()
+
+    
+
             
 
     

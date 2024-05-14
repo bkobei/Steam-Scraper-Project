@@ -22,7 +22,6 @@ def clean_data(directory):
             data = json.load(json_file)
         
         data["weekly_positions"] = {}
-        data["prices"] = {}
         json_objs_list[data['name']] = data
 
     amount_of_weeks_recorded = 0
@@ -47,25 +46,29 @@ def clean_data(directory):
 
 
                 our_json_obj["weekly_positions"].update({week: data['position']})
-                our_json_obj["prices"].update({"normal_price": data["prices"][0]})
-                our_json_obj["prices"].update({"discount_price": data["prices"][1]})
 
                 json_objs_list.update({data['name']: our_json_obj})
 
         amount_of_weeks_recorded += 1
 
-    for (key, item) in json_objs_list.items():
-        
-        for week in weeks_list:
-            if len(item["weekly_positions"]) < 1:
-                print("working")
-                item["weekly_positions"].update({week: "0"})
-        print("weekly_positions amount: %s"%(len(item["weekly_positions"])))
+    for item in json_objs_list.values():
+        if (item["prices"][0] == "Free" or
+            item["prices"][0] == "free"):
+            item["prices"][0] = "$0"
+
         if len(item["prices"]) < 1:
-            item["prices"]["normal_price"] = ""
-            item["prices"]["discount_price"] = ""
-        print("prices count: %s"%(len(item["prices"])))
+            item["prices"].append("$0")
+            item["prices"].append("$0")
+        elif len(item["prices"]) < 2:
+            item["prices"].append("$0")
+
+
+        item["normal_price"] = item["prices"][0]
+        item["discount_price"] = item["prices"][1]
+
         print(item)
+
+
 
 
     
@@ -92,4 +95,5 @@ def clean_data(directory):
         except:
             print("Could not save file %s"%(filename))
 
-    print("All data cleaned. Done!")
+    print("All data cleaned. Done!") 
+    
