@@ -53,4 +53,5 @@ python main.py
 
 - This steam scraper has only been tested on windows.
 - The steam scraper still needs some improvements for the purpose of this project.
+- Clean Data folder contains sample not important for the program to run. You do not need to download it unless you want to test out data analysis portion
 
