@@ -1,0 +1,19 @@
+{
+    "position": 139,
+    "name": "final_fantasy_xiv_dawntrail",
+    "genre_list": [
+        "MMORPG",
+        "RPG",
+        "Massively Multiplayer",
+        "Fantasy"
+    ],
+    "publisher": "Square Enix",
+    "developer": "Square Enix",
+    "weekly_positions": {
+        "2024-4-16": 71
+    },
+    "prices": {
+        "normal_price": "$39.99",
+        "discount_price": ""
+    }
+}

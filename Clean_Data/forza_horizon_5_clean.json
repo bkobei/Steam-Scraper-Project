@@ -1,0 +1,19 @@
+{
+    "position": 84,
+    "name": "forza_horizon_5",
+    "genre_list": [
+        "Racing",
+        "Open World",
+        "Driving",
+        "Multiplayer"
+    ],
+    "publisher": "Xbox Game Studios",
+    "developer": "Playground Games",
+    "weekly_positions": {
+        "2024-4-16": 45
+    },
+    "prices": {
+        "normal_price": "$59.99",
+        "discount_price": ""
+    }
+}

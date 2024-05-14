@@ -1,0 +1,19 @@
+{
+    "position": 99,
+    "name": "ghostrunner_2",
+    "genre_list": [
+        "Action",
+        "Cyberpunk",
+        "Runner",
+        "Hack and Slash"
+    ],
+    "publisher": "",
+    "developer": "One More Level",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

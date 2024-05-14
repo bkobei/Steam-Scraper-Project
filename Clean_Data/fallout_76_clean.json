@@ -1,0 +1,19 @@
+{
+    "position": 9,
+    "name": "fallout_76",
+    "genre_list": [
+        "Open World",
+        "Dark Comedy",
+        "RPG",
+        "Post-apocalyptic"
+    ],
+    "publisher": "Bethesda Softworks",
+    "developer": "Bethesda Game Studios",
+    "weekly_positions": {
+        "2024-4-16": 3
+    },
+    "prices": {
+        "normal_price": "$39.99",
+        "discount_price": ""
+    }
+}

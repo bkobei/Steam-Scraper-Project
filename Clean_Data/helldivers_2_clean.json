@@ -1,0 +1,19 @@
+{
+    "position": 4,
+    "name": "helldivers_2",
+    "genre_list": [
+        "Online Co-Op",
+        "Third-Person Shooter",
+        "Multiplayer",
+        "Action"
+    ],
+    "publisher": "PlayStation PC LLC",
+    "developer": "Arrowhead Game Studios",
+    "weekly_positions": {
+        "2024-4-16": 1
+    },
+    "prices": {
+        "normal_price": "$39.99",
+        "discount_price": ""
+    }
+}

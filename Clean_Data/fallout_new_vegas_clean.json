@@ -1,0 +1,19 @@
+{
+    "position": 35,
+    "name": "fallout_new_vegas",
+    "genre_list": [
+        "Open World",
+        "RPG",
+        "Post-apocalyptic",
+        "Singleplayer"
+    ],
+    "publisher": "Bethesda Softworks",
+    "developer": "Obsidian Entertainment",
+    "weekly_positions": {
+        "2024-4-16": 16
+    },
+    "prices": {
+        "normal_price": "$9.99",
+        "discount_price": ""
+    }
+}

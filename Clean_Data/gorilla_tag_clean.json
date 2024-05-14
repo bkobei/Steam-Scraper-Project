@@ -1,0 +1,19 @@
+{
+    "position": 220,
+    "name": "gorilla_tag",
+    "genre_list": [
+        "Psychological Horror",
+        "VR",
+        "Multiplayer",
+        "Parkour"
+    ],
+    "publisher": "Another Axiom",
+    "developer": "Another Axiom",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

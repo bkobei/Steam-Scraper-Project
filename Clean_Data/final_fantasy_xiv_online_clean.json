@@ -1,0 +1,19 @@
+{
+    "position": 17,
+    "name": "final_fantasy_xiv_online",
+    "genre_list": [
+        "MMORPG",
+        "RPG",
+        "Massively Multiplayer",
+        "Fantasy"
+    ],
+    "publisher": "Square Enix",
+    "developer": "Square Enix",
+    "weekly_positions": {
+        "2024-4-16": 20
+    },
+    "prices": {
+        "normal_price": "$19.99",
+        "discount_price": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "position": 237,
+    "name": "fallout_shelter",
+    "genre_list": [
+        "Free to Play",
+        "Base Building",
+        "Survival",
+        "Post-apocalyptic"
+    ],
+    "publisher": "Bethesda Softworks",
+    "developer": "Bethesda Game Studios",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

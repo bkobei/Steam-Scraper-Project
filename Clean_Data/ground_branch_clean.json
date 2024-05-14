@@ -1,0 +1,19 @@
+{
+    "position": 451,
+    "name": "ground_branch",
+    "genre_list": [
+        "Tactical",
+        "Realistic",
+        "Military",
+        "FPS"
+    ],
+    "publisher": "MicroProse Software",
+    "developer": "BlackFoot Studios",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

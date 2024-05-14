@@ -1,0 +1,19 @@
+{
+    "position": 117,
+    "name": "iracing",
+    "genre_list": [
+        "Racing",
+        "Automobile Sim",
+        "Simulation",
+        "VR"
+    ],
+    "publisher": "iRacing.com Motorsport Simulations",
+    "developer": "iRacing.com Motorsport Simulations",
+    "weekly_positions": {
+        "2024-4-16": "0"
+    },
+    "prices": {
+        "normal_price": "",
+        "discount_price": ""
+    }
+}

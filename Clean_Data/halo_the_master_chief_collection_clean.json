@@ -1,0 +1,19 @@
+{
+    "position": 146,
+    "name": "halo_the_master_chief_collection",
+    "genre_list": [
+        "Great Soundtrack",
+        "FPS",
+        "Classic",
+        "Multiplayer"
+    ],
+    "publisher": "Xbox Game Studios",
+    "developer": "343 Industries",
+    "weekly_positions": {
+        "2024-4-16": 30
+    },
+    "prices": {
+        "normal_price": "$39.99",
+        "discount_price": ""
+    }
+}
