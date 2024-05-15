@@ -1,0 +1,20 @@
+{
+    "position": 371,
+    "name": "blade_and_sorcery",
+    "genre_list": [
+        "VR",
+        "Swordplay",
+        "Action",
+        "Moddable"
+    ],
+    "publisher": "WarpFrog",
+    "developer": "WarpFrog",
+    "prices": [
+        "$19.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$19.99",
+    "discount_price": "$0"
+}

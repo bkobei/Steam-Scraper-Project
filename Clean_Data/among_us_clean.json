@@ -1,0 +1,20 @@
+{
+    "position": 348,
+    "name": "among_us",
+    "genre_list": [
+        "Multiplayer",
+        "Online Co-Op",
+        "Social Deduction",
+        "Space"
+    ],
+    "publisher": "Innersloth",
+    "developer": "Innersloth",
+    "prices": [
+        "$4.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$4.99",
+    "discount_price": "$0"
+}

@@ -1,0 +1,22 @@
+{
+    "position": 314,
+    "name": "anno_1800",
+    "genre_list": [
+        "City Builder",
+        "Strategy",
+        "Simulation",
+        "Economy"
+    ],
+    "publisher": "Ubisoft",
+    "developer": "Ubisoft Mainz",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 67
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

@@ -1,5 +1,5 @@
 {
-    "position": 87,
+    "position": 124,
     "name": "battlefield_2042",
     "genre_list": [
         "FPS",
@@ -14,7 +14,12 @@
         "$0"
     ],
     "discount_percent": "0%",
-    "weekly_positions": {},
+    "weekly_positions": {
+        "2024-2-13": 63,
+        "2024-3-12": 94,
+        "2024-3-19": 29,
+        "2024-3-26": 69
+    },
     "normal_price": "$59.99",
     "discount_price": "$0"
 }

@@ -1,0 +1,20 @@
+{
+    "position": 432,
+    "name": "battle_brothers",
+    "genre_list": [
+        "Strategy",
+        "RPG",
+        "Medieval",
+        "Open World"
+    ],
+    "publisher": "Overhype Studios",
+    "developer": "Overhype Studios",
+    "prices": [
+        "$29.99",
+        "$14.99"
+    ],
+    "discount_percent": "50%",
+    "weekly_positions": {},
+    "normal_price": "$29.99",
+    "discount_price": "$14.99"
+}

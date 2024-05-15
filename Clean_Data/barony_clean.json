@@ -1,0 +1,20 @@
+{
+    "position": 162,
+    "name": "barony",
+    "genre_list": [
+        "Action Roguelike",
+        "Dungeon Crawler",
+        "Fantasy",
+        "Co-op Campaign"
+    ],
+    "publisher": "Turning Wheel LLC",
+    "developer": "Turning Wheel LLC",
+    "prices": [
+        "$19.99",
+        "$14.99"
+    ],
+    "discount_percent": "25%",
+    "weekly_positions": {},
+    "normal_price": "$19.99",
+    "discount_price": "$14.99"
+}

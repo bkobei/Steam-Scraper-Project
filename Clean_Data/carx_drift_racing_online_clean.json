@@ -1,0 +1,20 @@
+{
+    "position": 349,
+    "name": "carx_drift_racing_online",
+    "genre_list": [
+        "Racing",
+        "Driving",
+        "Multiplayer",
+        "Automobile Sim"
+    ],
+    "publisher": "CarX Technologies, LLC",
+    "developer": "CarX Technologies, LLC",
+    "prices": [
+        "$14.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$14.99",
+    "discount_price": "$0"
+}

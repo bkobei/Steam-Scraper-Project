@@ -1,0 +1,23 @@
+{
+    "position": 131,
+    "name": "call_of_duty_modern_warfare_iii__blackcell_season_3",
+    "genre_list": [
+        "Action",
+        "Violent",
+        "Gore"
+    ],
+    "publisher": "",
+    "developer": "Infinity Ward",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 95,
+        "2024-4-2": 5,
+        "2024-4-9": 51
+    },
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}

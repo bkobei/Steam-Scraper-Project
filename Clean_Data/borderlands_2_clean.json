@@ -1,0 +1,23 @@
+{
+    "position": 270,
+    "name": "borderlands_2",
+    "genre_list": [
+        "Loot",
+        "Shooter",
+        "Action",
+        "Multiplayer"
+    ],
+    "publisher": "2K",
+    "developer": "Gearbox Software",
+    "prices": [
+        "$19.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-20": 65,
+        "2024-2-27": 91
+    },
+    "normal_price": "$19.99",
+    "discount_price": "$0"
+}

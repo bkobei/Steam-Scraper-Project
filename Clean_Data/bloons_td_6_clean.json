@@ -1,5 +1,5 @@
 {
-    "position": 92,
+    "position": 84,
     "name": "bloons_td_6",
     "genre_list": [
         "Tower Defense",
@@ -14,7 +14,10 @@
         "$0"
     ],
     "discount_percent": "0%",
-    "weekly_positions": {},
+    "weekly_positions": {
+        "2024-3-26": 87,
+        "2024-4-2": 53
+    },
     "normal_price": "$13.99",
     "discount_price": "$0"
 }

@@ -1,0 +1,20 @@
+{
+    "position": 331,
+    "name": "battlebit_remastered",
+    "genre_list": [
+        "FPS",
+        "Multiplayer",
+        "Shooter",
+        "Military"
+    ],
+    "publisher": "SgtOkiDoki",
+    "developer": "SgtOkiDoki",
+    "prices": [
+        "$14.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$14.99",
+    "discount_price": "$0"
+}

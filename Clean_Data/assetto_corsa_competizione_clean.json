@@ -1,0 +1,23 @@
+{
+    "position": 108,
+    "name": "assetto_corsa_competizione",
+    "genre_list": [
+        "Racing",
+        "Automobile Sim",
+        "Simulation",
+        "VR"
+    ],
+    "publisher": "505 Games",
+    "developer": "Kunos Simulazioni",
+    "prices": [
+        "$39.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-3-26": 89,
+        "2024-4-2": 52
+    },
+    "normal_price": "$39.99",
+    "discount_price": "$0"
+}

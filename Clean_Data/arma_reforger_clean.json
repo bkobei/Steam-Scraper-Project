@@ -1,0 +1,24 @@
+{
+    "position": 155,
+    "name": "arma_reforger",
+    "genre_list": [
+        "Action",
+        "Simulation",
+        "Shooter",
+        "Strategy"
+    ],
+    "publisher": "Bohemia Interactive",
+    "developer": "Bohemia Interactive",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-16": 64,
+        "2024-4-2": 74,
+        "2024-4-9": 80
+    },
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}

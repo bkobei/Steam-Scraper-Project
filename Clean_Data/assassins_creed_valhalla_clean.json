@@ -1,0 +1,22 @@
+{
+    "position": 451,
+    "name": "assassins_creed_valhalla",
+    "genre_list": [
+        "Action",
+        "Open World",
+        "Adventure",
+        "RPG"
+    ],
+    "publisher": "Ubisoft",
+    "developer": "Ubisoft Montreal",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 47
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

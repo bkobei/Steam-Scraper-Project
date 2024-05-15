@@ -1,0 +1,20 @@
+{
+    "position": 483,
+    "name": "battlefield_1",
+    "genre_list": [
+        "FPS",
+        "Multiplayer",
+        "World War I",
+        "Singleplayer"
+    ],
+    "publisher": "Electronic Arts",
+    "developer": "DICE",
+    "prices": [
+        "$39.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$39.99",
+    "discount_price": "$0"
+}

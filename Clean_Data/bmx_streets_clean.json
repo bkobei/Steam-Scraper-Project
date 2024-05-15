@@ -1,0 +1,22 @@
+{
+    "position": 345,
+    "name": "bmx_streets",
+    "genre_list": [
+        "Simulation",
+        "Sports",
+        "Sandbox",
+        "3D"
+    ],
+    "publisher": "Mash Games",
+    "developer": "Mash Games",
+    "prices": [
+        "$39.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-2": 51
+    },
+    "normal_price": "$39.99",
+    "discount_price": "$0"
+}

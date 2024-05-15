@@ -1,0 +1,22 @@
+{
+    "position": 488,
+    "name": "batman_arkham_knight",
+    "genre_list": [
+        "Action",
+        "Open World",
+        "Superhero",
+        "Stealth"
+    ],
+    "publisher": "WB Games",
+    "developer": "Rocksteady Studios",
+    "prices": [
+        "$19.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-20": 25
+    },
+    "normal_price": "$19.99",
+    "discount_price": "$0"
+}

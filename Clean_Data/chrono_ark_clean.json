@@ -1,0 +1,20 @@
+{
+    "position": 157,
+    "name": "chrono_ark",
+    "genre_list": [
+        "Roguelike Deckbuilder",
+        "RPG",
+        "Anime",
+        "Strategy"
+    ],
+    "publisher": "Al Fine",
+    "developer": "Al Fine",
+    "prices": [
+        "$24.99",
+        "$18.74"
+    ],
+    "discount_percent": "25%",
+    "weekly_positions": {},
+    "normal_price": "$24.99",
+    "discount_price": "$18.74"
+}
