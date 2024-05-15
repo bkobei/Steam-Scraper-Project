@@ -162,11 +162,17 @@ class SteamScraper():
                     print(game_name + " is not clickable")
                     self.driver.quit()
 
+                back = False
+
                 # Check if current page is age check page
                 if 'agecheck' in self.driver.current_url:
-                    self.age_check()
+                    try:
+                        self.age_check()
+                    except:
+                        print("Age Check Error!")
+                        back = True
 
-                if not (self.is_error_div()):
+                if not (self.is_error_div()) and not back:
                     if 'app' in self.driver.current_url:
                         is_game = True
                         # Collect data from game page
@@ -359,11 +365,16 @@ class SteamScraper():
 
             self.driver.get("https://store.steampowered.com/app/%s"%(id))
             
+            next = False
             
             if 'agecheck' in self.driver.current_url:
-                self.age_check()
+                try:
+                    self.age_check()
+                except:
+                    print("Age Check Error")
+                    next = True
 
-            if not (self.is_error_div()):
+            if not (self.is_error_div()) and not next:
                 if 'app' in self.driver.current_url:
                     try:
                         original_game_title = WebDriverWait(self.driver,5).until(EC.element_to_be_clickable(
@@ -421,7 +432,10 @@ class SteamScraper():
                         if is_add_genre_open:
                             self.driver.find_element(By.CLASS_NAME, 'newmodal_close').click()                
 
-                        # Check for DLCS or updates of games
+                        # Collect Official Genre
+                        #//*[@id="genresAndManufacturer"]/span/a[1]
+                        #//*[@id="genresAndManufacturer"]/span/a[2]
+                        #//*[@id="genresAndManufacturer"]/span/a[1]
 
                         # Get developer of game
                         developer_name = ''
