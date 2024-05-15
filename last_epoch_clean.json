@@ -1,0 +1,29 @@
+{
+    "position": 156,
+    "name": "last_epoch",
+    "genre_list": [
+        "Action RPG",
+        "Loot",
+        "Hack and Slash",
+        "RPG"
+    ],
+    "publisher": "Eleventh Hour Games",
+    "developer": "Eleventh Hour Games",
+    "prices": [
+        "$34.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 9,
+        "2024-2-20": 2,
+        "2024-2-27": 4,
+        "2024-3-12": 20,
+        "2024-3-19": 32,
+        "2024-3-26": 48,
+        "2024-3-5": 10,
+        "2024-4-2": 79
+    },
+    "normal_price": "$34.99",
+    "discount_price": "$0"
+}

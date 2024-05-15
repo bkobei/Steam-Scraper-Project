@@ -1,0 +1,26 @@
+{
+    "position": 238,
+    "name": "lies_of_p",
+    "genre_list": [
+        "Souls-like",
+        "Action",
+        "Dark Fantasy",
+        "Exploration"
+    ],
+    "publisher": "NEOWIZ",
+    "developer": "NEOWIZ",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 49,
+        "2024-2-20": 63,
+        "2024-3-12": 72,
+        "2024-4-2": 50,
+        "2024-4-9": 89
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

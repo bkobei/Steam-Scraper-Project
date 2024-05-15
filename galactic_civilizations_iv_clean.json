@@ -1,0 +1,20 @@
+{
+    "position": 333,
+    "name": "galactic_civilizations_iv",
+    "genre_list": [
+        "Space",
+        "Grand Strategy",
+        "Simulation",
+        "4X"
+    ],
+    "publisher": "Stardock Entertainment",
+    "developer": "Stardock Entertainment",
+    "prices": [
+        "$49.99",
+        "$39.99"
+    ],
+    "discount_percent": "20%",
+    "weekly_positions": {},
+    "normal_price": "$49.99",
+    "discount_price": "$39.99"
+}

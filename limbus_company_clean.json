@@ -1,0 +1,23 @@
+{
+    "position": 119,
+    "name": "limbus_company",
+    "genre_list": [
+        "Lore-Rich",
+        "Story Rich",
+        "RPG",
+        "Turn-Based Tactics"
+    ],
+    "publisher": "ProjectMoon",
+    "developer": "ProjectMoon",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-20": 84,
+        "2024-3-26": 66
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

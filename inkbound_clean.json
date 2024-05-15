@@ -1,0 +1,22 @@
+{
+    "position": 429,
+    "name": "inkbound",
+    "genre_list": [
+        "Tactical RPG",
+        "Turn-Based Tactics",
+        "Roguelite",
+        "PvE"
+    ],
+    "publisher": "Shiny Shoe",
+    "developer": "Shiny Shoe",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-9": 64
+    },
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}

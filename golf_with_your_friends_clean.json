@@ -1,0 +1,20 @@
+{
+    "position": 342,
+    "name": "golf_with_your_friends",
+    "genre_list": [
+        "Multiplayer",
+        "Casual",
+        "Mini Golf",
+        "Sports"
+    ],
+    "publisher": "Team17",
+    "developer": "Blacklight Interactive",
+    "prices": [
+        "$14.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$14.99",
+    "discount_price": "$0"
+}

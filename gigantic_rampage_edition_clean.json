@@ -1,0 +1,22 @@
+{
+    "position": 366,
+    "name": "gigantic_rampage_edition",
+    "genre_list": [
+        "Action",
+        "MOBA",
+        "PvP",
+        "Multiplayer"
+    ],
+    "publisher": "Arc Games",
+    "developer": "Abstraction Games",
+    "prices": [
+        "$19.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-9": 13
+    },
+    "normal_price": "$19.99",
+    "discount_price": "$0"
+}

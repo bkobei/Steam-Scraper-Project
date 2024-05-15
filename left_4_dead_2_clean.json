@@ -1,0 +1,20 @@
+{
+    "position": 303,
+    "name": "left_4_dead_2",
+    "genre_list": [
+        "Zombies",
+        "Co-op",
+        "FPS",
+        "Multiplayer"
+    ],
+    "publisher": "Valve",
+    "developer": "Valve",
+    "prices": [
+        "$9.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$9.99",
+    "discount_price": "$0"
+}

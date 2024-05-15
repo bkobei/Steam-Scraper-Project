@@ -1,0 +1,20 @@
+{
+    "position": 328,
+    "name": "lego_star_wars_the_skywalker_saga",
+    "genre_list": [
+        "LEGO",
+        "Adventure",
+        "Co-op",
+        "Multiplayer"
+    ],
+    "publisher": "Warner Bros. Games",
+    "developer": "TT Games",
+    "prices": [
+        "$49.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$49.99",
+    "discount_price": "$0"
+}

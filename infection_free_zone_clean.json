@@ -1,0 +1,22 @@
+{
+    "position": 180,
+    "name": "infection_free_zone",
+    "genre_list": [
+        "Early Access",
+        "Base Building",
+        "Post-apocalyptic",
+        "City Builder"
+    ],
+    "publisher": "",
+    "developer": "Jutsu Games",
+    "prices": [
+        "$24.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-9": 19
+    },
+    "normal_price": "$24.99",
+    "discount_price": "$0"
+}

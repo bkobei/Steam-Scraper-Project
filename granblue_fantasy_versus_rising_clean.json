@@ -1,0 +1,22 @@
+{
+    "position": 425,
+    "name": "granblue_fantasy_versus_rising",
+    "genre_list": [
+        "Action",
+        "2D Fighter",
+        "Multiplayer",
+        "Anime"
+    ],
+    "publisher": "Cygames, Inc.",
+    "developer": "Cygames, Inc.",
+    "prices": [
+        "$49.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-20": 70
+    },
+    "normal_price": "$49.99",
+    "discount_price": "$0"
+}

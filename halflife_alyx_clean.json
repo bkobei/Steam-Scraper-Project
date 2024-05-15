@@ -1,0 +1,20 @@
+{
+    "position": 386,
+    "name": "halflife_alyx",
+    "genre_list": [
+        "VR",
+        "FPS",
+        "Story Rich",
+        "Horror"
+    ],
+    "publisher": "Valve",
+    "developer": "Valve",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

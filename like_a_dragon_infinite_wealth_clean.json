@@ -1,0 +1,23 @@
+{
+    "position": 302,
+    "name": "like_a_dragon_infinite_wealth",
+    "genre_list": [
+        "Action",
+        "Adventure",
+        "JRPG",
+        "Turn-Based Combat"
+    ],
+    "publisher": "SEGA",
+    "developer": "Ryu Ga Gotoku Studio",
+    "prices": [
+        "$69.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 82,
+        "2024-3-12": 58
+    },
+    "normal_price": "$69.99",
+    "discount_price": "$0"
+}

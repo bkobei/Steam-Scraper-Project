@@ -1,0 +1,24 @@
+{
+    "position": 178,
+    "name": "idleon__the_idle_mmo",
+    "genre_list": [
+        "Idler",
+        "Management",
+        "Pixel Graphics",
+        "MMORPG"
+    ],
+    "publisher": "Lavaflame2",
+    "developer": "Lavaflame2",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 48,
+        "2024-2-20": 90,
+        "2024-2-27": 77
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

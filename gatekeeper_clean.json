@@ -1,0 +1,20 @@
+{
+    "position": 198,
+    "name": "gatekeeper",
+    "genre_list": [
+        "Early Access",
+        "Action Roguelike",
+        "Online Co-Op",
+        "Top-Down Shooter"
+    ],
+    "publisher": "",
+    "developer": "Gravity Lagoon",
+    "prices": [
+        "$14.99",
+        "$11.99"
+    ],
+    "discount_percent": "20%",
+    "weekly_positions": {},
+    "normal_price": "$14.99",
+    "discount_price": "$11.99"
+}

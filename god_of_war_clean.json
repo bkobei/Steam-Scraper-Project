@@ -1,0 +1,23 @@
+{
+    "position": 311,
+    "name": "god_of_war",
+    "genre_list": [
+        "Action",
+        "Singleplayer",
+        "Story Rich",
+        "Adventure"
+    ],
+    "publisher": "PlayStation PC LLC",
+    "developer": "Santa Monica Studio",
+    "prices": [
+        "$49.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-3-12": 85,
+        "2024-3-19": 62
+    },
+    "normal_price": "$49.99",
+    "discount_price": "$0"
+}

@@ -1,0 +1,20 @@
+{
+    "position": 403,
+    "name": "gas_station_simulator",
+    "genre_list": [
+        "Simulation",
+        "Economy",
+        "Building",
+        "Singleplayer"
+    ],
+    "publisher": "DRAGO entertainment",
+    "developer": "DRAGO entertainment",
+    "prices": [
+        "$19.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$19.99",
+    "discount_price": "$0"
+}

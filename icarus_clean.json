@@ -1,0 +1,20 @@
+{
+    "position": 227,
+    "name": "icarus",
+    "genre_list": [
+        "Survival",
+        "Open World Survival Craft",
+        "Multiplayer",
+        "Base Building"
+    ],
+    "publisher": "RocketWerkz",
+    "developer": "RocketWerkz",
+    "prices": [
+        "$34.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$34.99",
+    "discount_price": "$0"
+}

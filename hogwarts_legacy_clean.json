@@ -1,0 +1,25 @@
+{
+    "position": 138,
+    "name": "hogwarts_legacy",
+    "genre_list": [
+        "Magic",
+        "Fantasy",
+        "Open World",
+        "Singleplayer"
+    ],
+    "publisher": "Warner Bros. Games",
+    "developer": "Avalanche Software",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-3-12": 19,
+        "2024-3-19": 42,
+        "2024-4-16": 96,
+        "2024-4-9": 32
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

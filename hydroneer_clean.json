@@ -1,0 +1,22 @@
+{
+    "position": 189,
+    "name": "hydroneer",
+    "genre_list": [
+        "Base Building",
+        "Mining",
+        "Sandbox",
+        "Automation"
+    ],
+    "publisher": "Foulball Hangover",
+    "developer": "Foulball Hangover",
+    "prices": [
+        "$14.99",
+        "$7.49"
+    ],
+    "discount_percent": "50%",
+    "weekly_positions": {
+        "2024-4-2": 85
+    },
+    "normal_price": "$14.99",
+    "discount_price": "$7.49"
+}

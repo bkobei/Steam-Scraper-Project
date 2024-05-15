@@ -1,0 +1,22 @@
+{
+    "position": 147,
+    "name": "for_honor",
+    "genre_list": [
+        "Medieval",
+        "Swordplay",
+        "Action",
+        "Multiplayer"
+    ],
+    "publisher": "Ubisoft",
+    "developer": "Ubisoft Montreal",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 91
+    },
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}

@@ -1,0 +1,27 @@
+{
+    "position": 181,
+    "name": "granblue_fantasy_relink",
+    "genre_list": [
+        "Anime",
+        "Action",
+        "JRPG",
+        "Action RPG"
+    ],
+    "publisher": "Cygames, Inc.",
+    "developer": "Cygames, Inc.",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 13,
+        "2024-2-20": 26,
+        "2024-2-27": 46,
+        "2024-3-12": 50,
+        "2024-3-19": 87,
+        "2024-3-5": 49
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

@@ -1,0 +1,22 @@
+{
+    "position": 286,
+    "name": "house_flipper_2",
+    "genre_list": [
+        "Simulation",
+        "Building",
+        "Design & Illustration",
+        "Casual"
+    ],
+    "publisher": "Frozen District",
+    "developer": "Frozen District",
+    "prices": [
+        "$39.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-3-5": 61
+    },
+    "normal_price": "$39.99",
+    "discount_price": "$0"
+}

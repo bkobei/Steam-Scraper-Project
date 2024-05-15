@@ -1,0 +1,25 @@
+{
+    "position": 223,
+    "name": "hell_let_loose",
+    "genre_list": [
+        "Shooter",
+        "Realistic",
+        "World War II",
+        "FPS"
+    ],
+    "publisher": "Team17",
+    "developer": "Team17",
+    "prices": [
+        "$49.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 42,
+        "2024-2-20": 62,
+        "2024-2-27": 63,
+        "2024-3-5": 82
+    },
+    "normal_price": "$49.99",
+    "discount_price": "$0"
+}

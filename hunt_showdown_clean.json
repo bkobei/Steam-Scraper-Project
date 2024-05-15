@@ -1,0 +1,29 @@
+{
+    "position": 116,
+    "name": "hunt_showdown",
+    "genre_list": [
+        "Open World",
+        "Extraction Shooter",
+        "Atmospheric",
+        "Tactical"
+    ],
+    "publisher": "Crytek",
+    "developer": "Crytek",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 83,
+        "2024-2-20": 79,
+        "2024-3-12": 69,
+        "2024-3-19": 84,
+        "2024-3-26": 85,
+        "2024-3-5": 17,
+        "2024-4-16": 77,
+        "2024-4-2": 90
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

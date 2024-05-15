@@ -1,0 +1,20 @@
+{
+    "position": 248,
+    "name": "grand_theft_auto_iv_the_complete_edition",
+    "genre_list": [
+        "Open World",
+        "Action",
+        "Automobile Sim",
+        "Multiplayer"
+    ],
+    "publisher": "Rockstar Games",
+    "developer": "Rockstar North",
+    "prices": [
+        "$19.99",
+        "$5.99"
+    ],
+    "discount_percent": "70%",
+    "weekly_positions": {},
+    "normal_price": "$19.99",
+    "discount_price": "$5.99"
+}

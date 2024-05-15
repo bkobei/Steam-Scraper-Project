@@ -1,0 +1,22 @@
+{
+    "position": 327,
+    "name": "lightyear_frontier",
+    "genre_list": [
+        "Early Access",
+        "Online Co-Op",
+        "Singleplayer",
+        "Farming Sim"
+    ],
+    "publisher": "",
+    "developer": "FRAME BREAK",
+    "prices": [
+        "$24.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-3-19": 24
+    },
+    "normal_price": "$24.99",
+    "discount_price": "$0"
+}

@@ -1,0 +1,20 @@
+{
+    "position": 205,
+    "name": "garrys_mod",
+    "genre_list": [
+        "Sandbox",
+        "Moddable",
+        "Multiplayer",
+        "Physics"
+    ],
+    "publisher": "Valve",
+    "developer": "Facepunch Studios",
+    "prices": [
+        "$9.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$9.99",
+    "discount_price": "$0"
+}

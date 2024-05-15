@@ -1,0 +1,22 @@
+{
+    "position": 197,
+    "name": "jurassic_world_evolution_2",
+    "genre_list": [
+        "Dinosaurs",
+        "Building",
+        "Simulation",
+        "Management"
+    ],
+    "publisher": "Frontier Developments",
+    "developer": "Frontier Developments",
+    "prices": [
+        "$59.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-2": 29
+    },
+    "normal_price": "$59.99",
+    "discount_price": "$0"
+}

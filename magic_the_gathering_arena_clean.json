@@ -1,0 +1,30 @@
+{
+    "position": 80,
+    "name": "magic_the_gathering_arena",
+    "genre_list": [
+        "Strategy",
+        "Card Game",
+        "Trading Card Game",
+        "Free to Play"
+    ],
+    "publisher": "Wizards of the Coast LLC",
+    "developer": "Wizards of the Coast LLC",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 68,
+        "2024-2-20": 87,
+        "2024-2-27": 73,
+        "2024-3-19": 90,
+        "2024-3-26": 56,
+        "2024-3-5": 74,
+        "2024-4-16": 34,
+        "2024-4-2": 55,
+        "2024-4-9": 49
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

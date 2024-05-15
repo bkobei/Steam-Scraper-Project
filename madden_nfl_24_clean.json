@@ -1,0 +1,31 @@
+{
+    "position": 298,
+    "name": "madden_nfl_24",
+    "genre_list": [
+        "Sports",
+        "Simulation",
+        "Football (American)",
+        "Strategy"
+    ],
+    "publisher": "Electronic Arts",
+    "developer": "Tiburon",
+    "prices": [
+        "$69.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 18,
+        "2024-2-20": 42,
+        "2024-2-27": 41,
+        "2024-3-12": 67,
+        "2024-3-19": 41,
+        "2024-3-26": 45,
+        "2024-3-5": 41,
+        "2024-4-16": 90,
+        "2024-4-2": 76,
+        "2024-4-9": 65
+    },
+    "normal_price": "$69.99",
+    "discount_price": "$0"
+}

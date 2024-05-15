@@ -1,0 +1,28 @@
+{
+    "position": 161,
+    "name": "halo_infinite",
+    "genre_list": [
+        "Free to Play",
+        "FPS",
+        "Multiplayer",
+        "Singleplayer"
+    ],
+    "publisher": "Xbox Game Studios",
+    "developer": "343 Industries",
+    "prices": [
+        "$0",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 60,
+        "2024-2-20": 85,
+        "2024-2-27": 79,
+        "2024-3-19": 76,
+        "2024-3-26": 95,
+        "2024-3-5": 70,
+        "2024-4-2": 59
+    },
+    "normal_price": "$0",
+    "discount_price": "$0"
+}

@@ -1,0 +1,23 @@
+{
+    "position": 482,
+    "name": "goat_simulator_3",
+    "genre_list": [
+        "Exploration",
+        "Physics",
+        "Sandbox",
+        "Character Customization"
+    ],
+    "publisher": "",
+    "developer": "Coffee Stain North",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-2-13": 57,
+        "2024-3-26": 73
+    },
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}

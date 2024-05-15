@@ -1,0 +1,22 @@
+{
+    "position": 413,
+    "name": "kenshi",
+    "genre_list": [
+        "Open World",
+        "Sandbox",
+        "RPG",
+        "Survival"
+    ],
+    "publisher": "Lo-Fi Games",
+    "developer": "Lo-Fi Games",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {
+        "2024-4-2": 58
+    },
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}

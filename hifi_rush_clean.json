@@ -1,0 +1,20 @@
+{
+    "position": 407,
+    "name": "hifi_rush",
+    "genre_list": [
+        "Rhythm",
+        "Action",
+        "Hack and Slash",
+        "Singleplayer"
+    ],
+    "publisher": "Bethesda Softworks",
+    "developer": "Tango Gameworks",
+    "prices": [
+        "$29.99",
+        "$0"
+    ],
+    "discount_percent": "0%",
+    "weekly_positions": {},
+    "normal_price": "$29.99",
+    "discount_price": "$0"
+}
