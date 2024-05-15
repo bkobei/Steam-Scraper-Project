@@ -52,9 +52,8 @@ def clean_data(directory):
         amount_of_weeks_recorded += 1
 
     for item in json_objs_list.values():
-        if (item["prices"][0] == "Free" or
-            item["prices"][0] == "free"):
-            item["prices"][0] = "$0"
+        if "prices" not in item:
+            item["prices"] = ["$0", "$0"]
 
         if len(item["prices"]) < 1:
             item["prices"].append("$0")
@@ -62,11 +61,16 @@ def clean_data(directory):
         elif len(item["prices"]) < 2:
             item["prices"].append("$0")
 
+        print("Before price clean: %s"%item)
+        if (item["prices"][0] == "Free" or
+            item["prices"][0] == "free"):
+            item["prices"][0] = "$0"
+
 
         item["normal_price"] = item["prices"][0]
         item["discount_price"] = item["prices"][1]
 
-        print(item)
+        print("After price clean: %s"%item)
 
 
 
