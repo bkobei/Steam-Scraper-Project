@@ -15,8 +15,49 @@ def read_json_files(folder_path):
                 file_data = json.load(file)
                 data.append(file_data)
 
-            print(file_data)
     return data
+
+def overall_genre_count(path):
+    genre_count_dict = {}
+    for game in path:
+        genres = game["genre_list"]
+        for genre in genres:
+            if genre not in genre_count_dict:
+                genre_count_dict[genre] = 1
+            else:
+                genre_count_dict[genre] += 1
+                
+
+    return genre_count_dict
+
+def weekly_genre_count(path):
+    weekly_genre_count_dict = {}
+    for game in path:
+        weeks = game["weekly_positions"]
+        genres = game["genre_list"]
+        for week in weeks.keys():
+            if week not in weekly_genre_count_dict.keys():
+                weekly_genre_count_dict[week] = {}
+            
+            for genre in genres:
+                if genre not in weekly_genre_count_dict[week]:
+                    weekly_genre_count_dict[week].update({genre: 0})
+                
+                weekly_genre_count_dict[week][genre] += 1
+
+    return weekly_genre_count_dict
+
+                    
+
+def get_week_list(path):
+    week_list = []
+    for game in path:
+        weeks = game["weekly_positions"]
+        for week in weeks.keys():
+            if week not in week_list:
+                week_list.append(week)
+
+    return week_list
 
 def calculate_average_position_by_genre(data):
     genre_positions = {}
@@ -54,7 +95,8 @@ def store_highest_position_per_genre(data):
         position = game['position']
         for genre in genres:
             if genre in highest_positions:
-                if position > highest_positions[genre]:
+                # Since the lower number is higher position, we save lower number as highest position
+                if position < highest_positions[genre]:
                     highest_positions[genre] = position
             else:
                 highest_positions[genre] = position
@@ -78,4 +120,29 @@ def analyze_data(path):
     print("\nHighest position per genre:")
     for genre, highest_position in highest_positions_per_genre.items():
         print(f"{genre}: {highest_position}")
+
+    genre_count_dict = overall_genre_count(games_data)
+    print("\nOverall Genre Count:")
+    for genre, count in genre_count_dict.items():
+        print(f"{genre}: {count}")
+
+    week_list = get_week_list(games_data)
+    print("\nWeek List")
+    for week in week_list:
+        print(week)
+
+    print("\nWeekly Genre Count")
+    weekly_genres = weekly_genre_count(games_data)
+    for week, genre_count_list in weekly_genres.items():
+        print("Week of %s"%week)
+        print("=================================================")
+        for genre, genre_count in reversed(sorted(genre_count_list.items(), key=lambda item: item[1])):
+            print("No. of games in %s Genre: "%genre + "%s"%genre_count)
+
+        print("=================================================")
     
+
+download_dir =  'D:/CS4540/Project' #'C:/TestingWithoutDDrive/'      
+save_path = os.path.normpath(os.path.join(download_dir, 'Data'))
+
+analyze_data(save_path)
