@@ -57,7 +57,7 @@ python main.py
 
 # Running via Airflow
 
-Store the first_dag within the dags directory of airflow. We also could not get the data extraction to work via airflow so we extracted the data ahead of time. We mainly store the data and the Steam Sraper in the dags directory since we are using Docker containers. Once the data is extracted and stored, we can start our pipeline and it will clean and analyze the data for us.
+Assuming you have airflow installed somewhere, store the first_dag within the dags directory of airflow. We also could not get the data extraction to work via airflow so we extracted the data ahead of time. We mainly store the data and the Steam Sraper in the dags directory since we are using Docker containers. Once the data is extracted and stored, we can start our pipeline and it will clean and analyze the data for us.
 
 # Starting Streamlit
 
