@@ -69,4 +69,4 @@ docker-compose up
 
 Make sure your analysis.json file is within your streamlit/app directory, otherwise it will display an error.\
 Once you have started streamlit, point your browser to `http://localhost:8501`
-
+![Alt text](stream-lit-screenshot.png)
