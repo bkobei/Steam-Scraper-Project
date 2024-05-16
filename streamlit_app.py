@@ -55,12 +55,7 @@ data = load_data()
 # LAYING OUT THE TOP SECTION OF THE APP
 # row1_1, row1_2 = st.columns((2, 3))
 
-# IF THE SLIDER CHANGES, UPDATE THE QUERY PARAM
-def update_query_params():
-    hour_selected = st.session_state["pickup_hour"]
-    st.experimental_set_query_params(pickup_hour=hour_selected)
-
-
+"""
 with row1_1:
     st.title("NYC Uber Ridesharing Data")
     hour_selected = st.slider(
@@ -68,42 +63,18 @@ with row1_1:
     )
 
 
+
 with row1_2:
     st.write(
-        """
+        
     ##
-    Examining how Uber pickups vary over time in New York City's and at its major regional airports.
-    By sliding the slider on the left you can view different slices of time and explore different transportation trends.
-    """
+    #Examining how Uber pickups vary over time in New York City's and at its major regional airports.
+    #By sliding the slider on the left you can view different slices of time and explore different transportation trends.
+    
     )
+"""
 
-# LAYING OUT THE MIDDLE SECTION OF THE APP WITH THE MAPS
-row2_1, row2_2, row2_3, row2_4 = st.columns((2, 1, 1, 1))
 
-# SETTING THE ZOOM LOCATIONS FOR THE AIRPORTS
-la_guardia = [40.7900, -73.8700]
-jfk = [40.6650, -73.7821]
-newark = [40.7090, -74.1805]
-zoom_level = 12
-midpoint = mpoint(data["lat"], data["lon"])
-
-with row2_1:
-    st.write(
-        f"""**All New York City from {hour_selected}:00 and {(hour_selected + 1) % 24}:00**"""
-    )
-    map(filterdata(data, hour_selected), midpoint[0], midpoint[1], 11)
-
-with row2_2:
-    st.write("**La Guardia Airport**")
-    map(filterdata(data, hour_selected), la_guardia[0], la_guardia[1], zoom_level)
-
-with row2_3:
-    st.write("**JFK Airport**")
-    map(filterdata(data, hour_selected), jfk[0], jfk[1], zoom_level)
-
-with row2_4:
-    st.write("**Newark Airport**")
-    map(filterdata(data, hour_selected), newark[0], newark[1], zoom_level)
 
 # CALCULATING DATA FOR THE HISTOGRAM
 chart_data = histdata(data, hour_selected)
