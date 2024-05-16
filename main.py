@@ -27,5 +27,6 @@ steam_scraper.collect_weekly_top_seller()
 steam_scraper.driver_quit()
 steam_scraper.save_data_to_json()
 clean_data(save_path)
+analyze_clean_data(save_path)
 
 del steam_scraper
