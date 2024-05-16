@@ -106,12 +106,14 @@ def calculate_average_position_by_price(data):
 
 def count_game_by_price(data):
     price_pos_dict = {
-        "$0-$10": 0,
-        "$10-$20": 0,
-        "$20-$30": 0,
-        "$30-$40": 0,
-        "$40-$50": 0,
-        "$60_or_more": 0,
+        "$0": 0,
+        "$0.01-$10": 0,
+        "$10.01-$20": 0,
+        "$20.01-$30": 0,
+        "$30.01-$40": 0,
+        "$40.01-$50": 0,
+        "$50.01-$60": 0,
+        "$60+": 0,
     }
     for game in data:
         game_norm_price = price_str_to_float(game["normal_price"])
@@ -128,18 +130,22 @@ def count_game_by_price(data):
 
 def get_price_range_as_string(game_price):
     price_range_str = ''
-    if  game_price < 10:
-        price_range_str = "$0-$10"
-    elif game_price < 20:
-        price_range_str = "$10-$20"
-    elif game_price < 30:
-        price_range_str = "$20-$30"
-    elif game_price < 40:
-        price_range_str = "$30-$40"
-    elif game_price < 50:
-        price_range_str = "$40-$50"
+    if game_price == 0:
+        price_range_str = "$0"
+    elif  game_price <= 10:
+        price_range_str = "$0.01-$10"
+    elif game_price <= 20:
+        price_range_str = "$10.01-$20"
+    elif game_price <= 30:
+        price_range_str = "$20.01-$30"
+    elif game_price <= 40:
+        price_range_str = "$30.01-$40"
+    elif game_price <= 50:
+        price_range_str = "$40.01-$50"
+    elif game_price <= 60:
+        price_range_str = "$50.01-$60"
     else:
-        price_range_str = "$60_or_more" 
+        price_range_str = "$60+" 
 
     return price_range_str
 
@@ -167,7 +173,7 @@ def price_str_to_float(price):
 
     return float(new_price)
 
-def analyze_data(path):
+def analyze_clean_data(path):
     folder_path = os.path.normpath(os.path.join(path, "Clean_Data"))
     games_data = read_json_files(folder_path)
 
