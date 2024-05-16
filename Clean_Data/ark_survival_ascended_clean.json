@@ -1,5 +1,5 @@
 {
-    "position": 68,
+    "position": 58,
     "name": "ark_survival_ascended",
     "genre_list": [
         "Early Access",
@@ -15,12 +15,7 @@
     ],
     "discount_percent": "0%",
     "weekly_positions": {
-        "2024-2-27": 49,
-        "2024-3-12": 97,
-        "2024-3-26": 29,
-        "2024-4-16": 54,
-        "2024-4-2": 12,
-        "2024-4-9": 30
+        "2024-4-16": 54
     },
     "normal_price": "$44.99",
     "discount_price": "$0"

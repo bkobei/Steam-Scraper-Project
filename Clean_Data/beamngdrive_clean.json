@@ -1,5 +1,5 @@
 {
-    "position": 85,
+    "position": 72,
     "name": "beamngdrive",
     "genre_list": [
         "Simulation",
@@ -14,17 +14,7 @@
         "$0"
     ],
     "discount_percent": "0%",
-    "weekly_positions": {
-        "2024-2-13": 95,
-        "2024-2-20": 95,
-        "2024-2-27": 94,
-        "2024-3-12": 75,
-        "2024-3-19": 78,
-        "2024-3-26": 60,
-        "2024-3-5": 89,
-        "2024-4-2": 80,
-        "2024-4-9": 94
-    },
+    "weekly_positions": {},
     "normal_price": "$24.99",
     "discount_price": "$0"
 }

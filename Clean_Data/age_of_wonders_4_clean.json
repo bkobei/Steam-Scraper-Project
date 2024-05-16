@@ -1,5 +1,5 @@
 {
-    "position": 92,
+    "position": 75,
     "name": "age_of_wonders_4",
     "genre_list": [
         "Strategy",
@@ -14,10 +14,7 @@
         "$34.99"
     ],
     "discount_percent": "30%",
-    "weekly_positions": {
-        "2024-2-27": 53,
-        "2024-3-12": 82
-    },
+    "weekly_positions": {},
     "normal_price": "$49.99",
     "discount_price": "$34.99"
 }

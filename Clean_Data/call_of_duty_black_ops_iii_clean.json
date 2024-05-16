@@ -1,5 +1,5 @@
 {
-    "position": 57,
+    "position": 49,
     "name": "call_of_duty_black_ops_iii",
     "genre_list": [
         "Multiplayer",
@@ -15,15 +15,7 @@
     ],
     "discount_percent": "0%",
     "weekly_positions": {
-        "2024-2-13": 27,
-        "2024-2-27": 96,
-        "2024-3-12": 35,
-        "2024-3-19": 48,
-        "2024-3-26": 62,
-        "2024-3-5": 93,
-        "2024-4-16": 24,
-        "2024-4-2": 73,
-        "2024-4-9": 81
+        "2024-4-16": 24
     },
     "normal_price": "$59.99",
     "discount_price": "$0"

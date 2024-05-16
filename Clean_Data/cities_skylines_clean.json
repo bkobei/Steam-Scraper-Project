@@ -1,5 +1,5 @@
 {
-    "position": 95,
+    "position": 82,
     "name": "cities_skylines",
     "genre_list": [
         "City Builder",
@@ -14,9 +14,7 @@
         "$8.99"
     ],
     "discount_percent": "70%",
-    "weekly_positions": {
-        "2024-2-13": 88
-    },
+    "weekly_positions": {},
     "normal_price": "$29.99",
     "discount_price": "$8.99"
 }
