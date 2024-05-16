@@ -53,7 +53,6 @@ python main.py
 
 - The steam scraper has only been tested on windows.
 - The steam scraper still needs some improvements for the purpose of this project.
-- 
 
 # Running via Airflow
 
