@@ -1,6 +1,7 @@
 """
-Created on Wednesday May 13, 2024
+Created on Monday May 13, 2024
 @author: Alvin Yu
+Edited Wednesday May 15, 2024
 """
 
 import json
@@ -47,7 +48,22 @@ def weekly_genre_count(path):
 
     return weekly_genre_count_dict
 
-                    
+def weekly_prices(path):
+    weekly_prices_dict = {}
+    for game in path:
+        for week in game["weekly_positions"].keys():
+            if week not in weekly_prices_dict:
+                weekly_prices_dict[week] = {}
+
+    for game in path:
+        for week in weekly_prices_dict:
+            if week in game["weekly_positions"]:
+                if game["discount_percent"] == '0%':
+                    weekly_prices_dict[week].update({game["name"]: price_str_to_float(game["normal_price"])})
+                else:
+                    weekly_prices_dict[week].update({game["name"]: price_str_to_float(game["discount_price"])})
+    
+    return weekly_prices_dict
 
 def get_week_list(path):
     week_list = []
@@ -76,7 +92,6 @@ def calculate_average_position_by_genre(data):
         average_positions[genre] = sum(positions) / len(positions)
 
     return average_positions
-    
 
 def calculate_average_position_by_price(data):
     total_positions = 0
@@ -87,6 +102,47 @@ def calculate_average_position_by_price(data):
 
     average_position = total_positions / total_games
     return average_position
+    
+
+def count_game_by_price(data):
+    price_pos_dict = {
+        "$0-$10": 0,
+        "$10-$20": 0,
+        "$20-$30": 0,
+        "$30-$40": 0,
+        "$40-$50": 0,
+        "$60_or_more": 0,
+    }
+    for game in data:
+        game_norm_price = price_str_to_float(game["normal_price"])
+        game_disc_price = price_str_to_float(game["discount_price"])
+        price_range_str = ''
+        if game["discount_percent"] != "0%":
+            price_range_str = get_price_range_as_string(game_disc_price)
+        else:
+            price_range_str = get_price_range_as_string(game_norm_price)
+
+        price_pos_dict[price_range_str] += 1 
+
+    return price_pos_dict
+
+def get_price_range_as_string(game_price):
+    price_range_str = ''
+    if  game_price < 10:
+        price_range_str = "$0-$10"
+    elif game_price < 20:
+        price_range_str = "$10-$20"
+    elif game_price < 30:
+        price_range_str = "$20-$30"
+    elif game_price < 40:
+        price_range_str = "$30-$40"
+    elif game_price < 50:
+        price_range_str = "$40-$50"
+    else:
+        price_range_str = "$60_or_more" 
+
+    return price_range_str
+
 
 def store_highest_position_per_genre(data):
     highest_positions = {}
@@ -102,6 +158,14 @@ def store_highest_position_per_genre(data):
                 highest_positions[genre] = position
 
     return highest_positions
+
+def price_str_to_float(price):
+    new_price = ''
+    for c in price:
+        if (c >= '0' and c <= '9') or c == '.':
+            new_price += c
+
+    return float(new_price)
 
 def analyze_data(path):
     folder_path = os.path.normpath(os.path.join(path, "Clean_Data"))
@@ -140,9 +204,51 @@ def analyze_data(path):
             print("No. of games in %s Genre: "%genre + "%s"%genre_count)
 
         print("=================================================")
+
+    print("\nWeekly Prices in Top 100")
+    weekly_prices_dict = weekly_prices(games_data)
+    for week, game_obj in weekly_prices_dict.items():
+        print(f"Week of {week}")
+        print("==================================================")
+
+        for game, price in game_obj.items():
+            print(f"{game}: ${price}")
+
+        print("==================================================")
+
+    print("\nPrice range to count")
+    price_range_count_list = count_game_by_price(games_data)
+    for range, count in price_range_count_list.items():
+        print(f"{range}: {count}")
+
+
+
+    json_save_path = os.path.normpath(os.path.join(path, 'Analysis'))
+    if not os.path.exists(json_save_path):
+        print("Cannot find 'GameData' folder. Making 'GameData' folder in " + path)
+        os.makedirs(json_save_path)
+
+    json_obj = {
+        "average_positions_by_genre": average_position_by_genre,
+        "average_positions_by_price": average_position_by_price,
+        "highest_position_per_genre": highest_positions_per_genre,
+        "overall_genre_count": genre_count_dict,
+        "weekly_genre_count": weekly_genres,
+        "weekly_prices": weekly_prices_dict,
+        "price_ranges": price_range_count_list
+    }
+
+    try:
+        filename = "analysis.json"
+        json_object = json.dumps(json_obj, indent=4)
+
+        full_file_path = os.path.normpath(os.path.join(json_save_path, filename))
+        print("Filepath: " + full_file_path)
+        with open(full_file_path, 'w') as outfile:
+            outfile.write(json_object)
+
+        print("Success at writing %s"%filename + " to %s"%json_save_path)
+    except:
+        print("There was an error")
+
     
-
-download_dir =  'D:/CS4540/Project' #'C:/TestingWithoutDDrive/'      
-save_path = os.path.normpath(os.path.join(download_dir, 'Data'))
-
-analyze_data(save_path)
