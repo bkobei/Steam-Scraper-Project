@@ -55,3 +55,18 @@ python main.py
 - The steam scraper still needs some improvements for the purpose of this project.
 - Clean Data folder contains sample not important for the program to run. You do not need to download it unless you want to test out data analysis portion
 
+# Running via Airflow
+
+Store the first_dag within the dags directory of airflow. We also could not get the data extraction to work via airflow so we extracted the data ahead of time. We mainly store the data and the Steam Sraper in the dags directory since we are using Docker containers. Once the data is extracted and stored, we can start our pipeline and it will clean and analyze the data for us.
+
+# Starting Streamlit
+
+To start up streamlit, head into the streamlit folder and type the following in the terminal.
+
+```sh
+docker-compose up 
+```
+
+Make sure your analysis.json file is within your streamlit/app directory, otherwise it will display an error.\
+Once you have started streamlit, point your browser to `http://localhost:8501`
+
