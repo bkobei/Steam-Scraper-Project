@@ -7,6 +7,7 @@ Created on Wednesday April 24, 2024
 import os
 from steam_scraper import SteamScraper
 from data_clean import *
+from data_analysis import *
 
 
 
